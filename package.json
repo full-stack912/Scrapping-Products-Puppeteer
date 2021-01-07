@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "node index.js --",
+    "proxy-test": "babel-node helpers/proxy_helper.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "puppeteer": "^1.20.0",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-proxy": "^1.0.2",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
+    "puppeteer-firefox": "^0.5.1",
+    "shelljs": "^0.8.4",
+    "uuid": "^7.0.3"
+  }
+}
